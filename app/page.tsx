@@ -511,11 +511,12 @@ export default function Page() {
     <div className='min-h-screen bg-gradient-to-b from-white to-slate-50 p-6'>
       <div className='mx-auto max-w-7xl'>
         {/* Header */}
-        <div className='mb-6  bg-blue-60 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between'>
+        <div className='mb-6  bg-blue-600 text-white flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between'>
           <div>
             <h1 className='text-2xl font-bold tracking-tight'>
-             Niyamika- A Unified Campus Governance Platform
+             Niyamika
             </h1>
+            <h3> A Unified Campus Governance Platform</h3>
             <p className='text-sm text-slate-600'>
               Admissions • Fees • Hostel • Exams • Library • Transport •
               Dashboard
