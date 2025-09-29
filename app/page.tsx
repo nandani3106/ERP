@@ -514,7 +514,7 @@ export default function Page() {
         <div className='mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between'>
           <div>
             <h1 className='text-2xl font-bold tracking-tight'>
-              SIH 2025 – Lightweight College ERP (RBAC + Library + Transport)
+             Niyamika- A Unified Campus Governance Platform
             </h1>
             <p className='text-sm text-slate-600'>
               Admissions • Fees • Hostel • Exams • Library • Transport •
