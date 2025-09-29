@@ -516,15 +516,11 @@ export default function Page() {
             <h1 className='ml-6 text-2xl font-bold tracking-tight'>
              Niyamika
             </h1>
-            <h3 className='ml-6'> A Unified Campus Governance Platform</h3>
-            <p className='ml-6 text-sm'>
-              Admissions • Fees • Hostel • Exams • Library • Transport •
-              Dashboard
-            </p>
+            <h3 className='ml-6 opacity-80'> A Unified Campus Governance Platform</h3>
           </div>
           {/* Role Switcher */}
-          <div className='flex items-center gap-2'>
-            <Badge variant='outline' className='rounded-full px-3 py-1 bg-whitead'>
+          <div className='flex items-center gap-2 text-white'>
+            <Badge variant='outline' className='rounded-full px-3 py-1 bg-white'>
               Role
             </Badge>
             <Select value={role} onValueChange={(v) => setRole(v as Role)}>
